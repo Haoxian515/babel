@@ -1,0 +1,8 @@
+// "build": "webpack --config webpack.config.js",
+// "start": "webpack-dev-server --config ./webpack.config.js --mode development --watch"
+
+
+"start": "npm run build",
+     "build": "webpack -p && ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base build"
+
+node_modules/.bin/webpack src/App.js static/App.js

@@ -1,0 +1,46 @@
+{
+  "name": "react-tutorial-mern",
+  "version": "1.0.0",
+  "description": "React Tutorial using MERN stack",
+  "main": "webapp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "build": "webpack --config webpack.config.js --watch",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development --watch"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasansr/react-tutorial-mern.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "MERN"
+  ],
+  "author": "Vasan Subramanian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasansr/react-tutorial-mern/issues"
+  },
+  "homepage": "https://github.com/vasansr/react-tutorial-mern#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "react-hot-loader": "^4.8.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
